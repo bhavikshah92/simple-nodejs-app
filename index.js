@@ -5,7 +5,7 @@ const wikip = require('wiki-infobox-parser');
 
 //ejs
 app.set("view engine", 'ejs');
-//Added here now at 13.53
+//Added here now at 15.55
 //routes
 app.get('/', (req,res) =>{
     res.render('index');
